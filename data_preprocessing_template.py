@@ -1,9 +1,12 @@
-# Data Preprocessing Template
+# Data Preprocessing Templat
 
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import sklaern as sk 
+import tensorflow as tf 
+
 
 # Importing the dataset
 dataset = pd.read_csv('Data.csv')
